@@ -5,3 +5,4 @@
 3. Port scanner
 4. Cryptography Cipher
 5. WHOIS lookup
+6. Automatic IP lookup by calling VirusTotal API

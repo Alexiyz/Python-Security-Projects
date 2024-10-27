@@ -1,4 +1,6 @@
 import socket
+import sys
+
 
 def whois(domain: str):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -8,6 +10,9 @@ def whois(domain: str):
     s.close()
     return response
 
-
 lookup = "google.com"
+
+if len(sys.argv) > 1:
+    target = sys.argv[1]
+
 print(whois(lookup))

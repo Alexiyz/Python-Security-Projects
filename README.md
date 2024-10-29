@@ -7,3 +7,4 @@
 5. WHOIS lookup
 6. Automatic IP lookup by calling VirusTotal API
 7. Multi person chat program
+8. Mass Email generator and sender

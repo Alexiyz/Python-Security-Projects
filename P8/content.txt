@@ -1,0 +1,2 @@
+This is the Subject line
+From here onwards is the content of the email
